@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" uuid="2fe33c7e-da5c-46aa-9f4c-b80a0f54dbc4" xsi:noNamespaceSchemaLocation="http://www.jetbrains.com/teamcity/schemas/2018.1/project-config.xsd">
+  <name>Test</name>
+  <parameters />
+  <project-extensions>
+    <extension id="PROJECT_EXT_2" type="versionedSettings">
+      <parameters>
+        <param name="buildSettings" value="ALWAYS_USE_CURRENT" />
+        <param name="credentialsStorageType" value="credentialsJSON" />
+        <param name="enabled" value="true" />
+        <param name="rootId" value="TctestGithub" />
+        <param name="showChanges" value="false" />
+      </parameters>
+    </extension>
+  </project-extensions>
+  <cleanup />
+</project>
+
